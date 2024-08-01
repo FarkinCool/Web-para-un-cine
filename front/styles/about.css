@@ -1,0 +1,211 @@
+body{
+    background-color: #444040;
+} 
+/*header*/
+.image-header{
+    height: 2em;
+    width: 2em;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #8f0a0b;
+    padding: 13px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.logo-section div{
+    margin-right: 5px;
+}
+
+.logo-section{
+    color: yellow;
+}
+
+.navigation-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-section li {
+    margin-right: 5em;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.navigation-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-section div{
+    margin-right: 2em;
+}
+
+main{
+    width: 80%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    text-align: center;
+    color: azure;
+    padding: 20px;
+}
+
+.container{
+    background-color: rgba(54, 52, 52, 0.822) ;
+    margin-bottom: 40px;
+    padding:5px;
+}
+
+#logoImagen{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5px; */
+}
+
+.image-container{   
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.image-title{
+    transition: transform 0.3s ease;  /* box-shadow 0.3s ease; transtion suabes*/
+}
+
+.image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image{
+    width: 200px;
+    height: 180px;
+    transition: transform 0.3s ease;
+    border-radius: 5%;
+}
+
+.image-container:hover .image-title{
+    transform: scale(1.1); /* aumneta ligera el tamanio*/
+}
+.image-container:hover .image-wrapper{
+    transform: scale(1.1); /* aumneta ligera el tamanio*/
+}
+.image-container:hover .image{
+    transform: scale(1.1); /* aumneta ligera el tamanio*/
+}
+
+.textarea{
+    width: 95%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 7px;
+    margin-bottom: 4px;    
+}
+
+#textdescription{
+    height: 100px;
+}
+
+#button{
+    margin-top:5px;
+    background-color: darkgreen;
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+    width: 180px;
+    height: 40px;
+}
+
+#listActivities{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.notenode{
+    margin-top: 10px;
+    width: 350px;
+    height: 230px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2.5px solid white;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.descriptionnode{
+    margin-right: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.deletenode{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightgray;
+    font-weight: 500;
+    font-size: 16px;
+}
+.imagenode{
+    width: 180px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* .foodiv{
+    margin-top: 20px;
+    text-align: center;
+} */
+
+.idnode{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.titlenode{
+    position: absolute;
+    top: 0;
+}

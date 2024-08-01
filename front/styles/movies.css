@@ -1,0 +1,129 @@
+body{
+    background-color: #444040;
+}
+.image-header{
+    height: 2em;
+    width: 2em;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #8f0a0b;
+    padding: 13px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.logo-section div{
+    margin-right: 5px;
+}
+
+.logo-section{
+    color: yellow;
+}
+
+.navigation-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-section li {
+    margin-right: 5em;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.navigation-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-section div{
+    margin-right: 2em;
+}
+
+/* cartelera pelis*/
+.container-cartelera{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    color: aliceblue;
+}
+
+ #listActivities{
+    display: grid;
+
+    grid-template-columns: auto auto auto !important;
+    justify-content: space-evenly;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center; */
+} 
+
+.notenode{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 370px;
+    height: 600px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2.5px solid white;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(100, 18, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content p{
+    margin: 10px 0px 0px 0px;
+    max-width: fit-content;
+    padding: 2.5px 5px;
+}
+
+.imagenode{
+    margin-top: 5px;
+    width: 350px;
+    height: 330px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.foodiv p{
+    margin: 10px 0px 0px 0px;
+    max-width: fit-content;
+    padding: 2.5px 5px;
+}
+
+/* .card-size {
+    width: 370px;
+} */
